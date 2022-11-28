@@ -1,3 +1,4 @@
 let firstname = "John";
 
-console.log(firstname)
+console.log("Hello "+firstname+":D");
+
