@@ -1,4 +1,13 @@
-let firstname = "John";
+const getFirstName = () => {
+  return "John";
+};
 
-console.log("Hello "+firstname+":D");
+function getLastName() {
+  return "Smith";
+}
 
+const greeting = "Hello";
+
+console.log(getLastName());
+
+console.log(`Hello, ${getFirstName()} ${getLastName()}  !`);
